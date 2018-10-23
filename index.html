@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html land="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Game Mate</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> 
+        </head>
+        <body>
+			<div class="jumbotron" id="head">
+        	<h1>GameMate</h1>
+			</div>
+            
+            
+            <div class="container-fluid" id="bodydiv">
+			<div id="headprofile">
+			
+       		<h3>Complete a profile below!</h3>
+			
+			</div>	
+	
+			
+			<div id="headquestions">
+				<h3 id="questions">Questions:</h3>
+			</div>
+            
+
+            <!-- CHANGE DIVS HERE --> 
+
+
+
+<!-- Page 1 --> 
+            <div id="inputbody1">
+            <form id="form">
+                    
+                                        <div class="form-group">
+                                            <div id="textinput">
+                                            <label for="noun">Name</label>
+                                            <input type="text" class="form-control" id="names">
+
+                                            <label for="noun">Age</label>
+                                            <input type="number" class="form-control" id="age">
+                                             </div>
+                                            <label for="noun">Game Expierence</label>
+                                            <div class="radio">
+                                                    <label><input type="radio" name="optradio" id="r1" 
+                                                        value="None">None</label>
+                                                  </div>
+                                                  <div class="radio">
+                                                    <label><input type="radio" name="optradio" id="r2" 
+                                                        value="Mario">I've played Mario.</label>
+                                                  </div>
+                                                  <div class="radio disabled">
+                                                    <label><input type="radio" name="optradio" id="r3" 
+                                                        value="CSGO">I'm a CSGO mlg player.</label>
+                                                  </div>
+                    
+                                        <!-- A nice button to submit the form -->
+                                        <!-- <button type="submit" class="btn btn-primary">Next</button> -->
+                                        
+
+                                                  </div>
+                                    </form>
+
+            </div>
+      
+
+
+
+<!-- Page 2 --> 
+            
+    <div id="inputbody2" display="none" style= "display:none">
+        <form id="form">
+                
+                                    <div class="form-group">
+                                        <label for="noun"><h4>Personality</h4></label>
+                                        <div class="radio">
+                                                <label for="noun"><h6>Do prefer to be alone or with team?</h6></label><br />
+                                                <label><input type="radio" value="1" name="optradio" id="p1">Alone</label>
+                                                <label><input type="radio" value="2" name="optradio" id="p2">Team</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+
+                                        <div class="radio">
+                                                <label for="noun"><h6>Realism or Fantasy?</h6></label><br />
+                                                <label class="radio"><input type="radio" name="optradio2" value="1" id="p3">Realistic</label>
+                                                <label class="radio"><input type="radio" name="optradio2" value="2" id="p4">Fantasy</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+
+                                        <div class="radio">
+                                                <label for="noun"><h6>Modern weapons(Guns) or Non-Modern Weapons (Bows, Swords, Magic, ect)</h6></label><br />
+                                                <label class="radio"><input type="radio" name="optradio3" value="1" id="p5">Guns</label>
+                                                <label class="radio"><input type="radio" name="optradio3" value="2" id="p6">Screw guns! Too easy!</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+
+                                        <div class="radio">
+                                                <label for="noun"><h6>Do you want to play against other real people (PVP) or only computer bots (PVE)?</h6></label><br />
+                                                <label class="radio"><input type="radio" name="optradio4" value="1" id="p7">Against real people! I love to trash talk.</label>
+                                                <label class="radio"><input type="radio" name="optradio4" value="2" id="p8">Aginst AI. Just looking for an antisocial way to use my time.</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+
+                                        <div class="radio">
+                                            <label for="noun"><h6>Are you looking for an action-adventure game, or sports game??</h6></label><br />
+                                            <label class="radio"><input type="radio" name="optradio5" value="1" id="p9">Action-Adventure!!!</label>
+                                            <label class="radio"><input type="radio" name="optradio5" value="2" id="p10">Sports!!!</label>
+                                          <div id="testingdiv"></div>
+                                    </div>
+                
+                                    
+
+                                </div>
+                                </form>
+                                
+        </div>
+
+
+
+
+
+<!-- Page 3 --> 
+
+<!-- 
+<div id="inputbody3" display="none" style= "display:none">
+        <form id="form">
+                
+                                    <div class="form-group">
+                                        <label for="noun"><h4>Sup bb</h4></label>
+                                        <div class="checkbox">
+                                                <label for="noun"><h6>Do prefer to be alone or with team?</h6></label><br />
+                                                <label class="checkbox"><input type="checkbox" value="1">Alone</label>
+                                                <label class="checkbox"><input type="checkbox" value="2">Team</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+
+                                        <div class="checkbox">
+                                                <label for="noun"><h6>Do prefer to be alone or with team?</h6></label><br />
+                                                <label class="checkbox"><input type="checkbox" value="1">Alone</label>
+                                                <label class="checkbox"><input type="checkbox" value="2">Team</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+
+                                        <div class="checkbox">
+                                                <label for="noun"><h6>Do prefer to be alone or with team?</h6></label><br />
+                                                <label class="checkbox"><input type="checkbox" value="1">Alone</label>
+                                                <label class="checkbox"><input type="checkbox" value="2">Team</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+
+                                        <div class="checkbox">
+                                                <label for="noun"><h6>Do prefer to be alone or with team?</h6></label><br />
+                                                <label class="checkbox"><input type="checkbox" value="1">Alone</label>
+                                                <label class="checkbox"><input type="checkbox" value="2">Team</label>
+                                              <div id="testingdiv"></div>
+                                        </div>
+                                  
+
+                                </div>
+                                </form>
+                                
+        </div>  -->
+        <button type="submit" class="btn btn-primary" id="button">Next</button> 
+
+
+
+
+            <div id="footer"></div>
+        </div>
+			
+        <div class="container-fluid" id="gamediv" style="display: none">
+            <div align="center" id="headprofile2">
+            
+               <h3 id="gamehead">This is the game matched for you!</h3>
+                <br />
+               <div id="gameinfo">
+                <img id="gameimg" src="gta.jpg" />
+
+               </div>
+               <button type="refresh" class="btn btn-primary" id="refesh" onclick="refresh()">Refresh</button> 
+            </div>
+        </div>			
+			
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+            <script src="./gm-script.ts"></script>
+            <script>
+                function refresh() {
+                    location.reload();
+                }
+                </script>
+
+          
+
+        </body> 
+
+</html>

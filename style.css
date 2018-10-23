@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head {
+	background-color: rgb(202, 61, 61);
+}
+h1 {
+	text-align: center;
+}
+
+#headprofile {
+    height: 100px;
+}
+
+#inputbody {
+    width: 500px;
+}
+
+#bodydiv {
+    padding-left: 10%;
+}
+
+#questions {
+    height: 75px;
+}
+
+#footer {
+    height: 300px;
+}
+
+#textinput {
+    width: 500px;
+}
+
+#gamediv {
+    padding-left: 40%;
+}
+
+#gamehead {
+    text-align: center;
+}
+
+#gameimg {
+    width: 50%;
+    height: 50%;
+}
+
+#gaminginfo {
+    align: center;
+}
